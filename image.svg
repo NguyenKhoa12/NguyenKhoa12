@@ -39,12 +39,12 @@
   </defs>
 
   <g clip-path="url(#frame)">
-    <!-- Bầu trời -->
+    <!-- Sky -->
     <rect width="900" height="160" fill="url(#sky)"/>
     <rect width="900" height="160" fill="url(#nebula1)"/>
     <rect width="900" height="160" fill="url(#nebula2)"/>
 
-    <!-- Sao -->
+    <!-- Stars -->
     <g>
       <circle cx="427.3" cy="103.9" r="1.5" fill="#fff" opacity="0.61"><animate attributeName="opacity" values="0.61;0.1;0.61" dur="2.5s" begin="3.0s" repeatCount="indefinite"/></circle>
       <circle cx="434.4" cy="101.8" r="1" fill="#fff" opacity="0.81"/>
@@ -162,7 +162,7 @@
     <g transform="translate(300 135)" filter="url(#starglow)"><path d="M0,-6 L1,-1 L6,0 L1,1 L0,6 L-1,1 L-6,0 L-1,-1 Z" fill="#fff"><animate attributeName="opacity" values="1;0.35;1" dur="2.8s" repeatCount="indefinite"/></path></g>
     <g transform="translate(640 22)" filter="url(#starglow)"><path d="M0,-6 L1,-1 L6,0 L1,1 L0,6 L-1,1 L-6,0 L-1,-1 Z" fill="#fff"><animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/></path></g>
 
-    <!-- Sao băng -->
+    <!-- Shooting star -->
     <g opacity="0">
       <line x1="0" y1="0" x2="80" y2="0" stroke="url(#meteor)" stroke-width="2" stroke-linecap="round"/>
       <circle cx="80" cy="0" r="1.8" fill="#fff"/>
@@ -170,7 +170,7 @@
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="1.2s" begin="1s;meteorAnim.end+4s"/>
     </g>
 
-    <!-- Chữ -->
+    <!-- Title -->
     <text x="50%" y="48%" text-anchor="middle" dominant-baseline="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="4" fill="url(#rgb)" stroke="#000" stroke-width="3" paint-order="stroke" filter="url(#glow)">Nguyen Khoa 12</text>
     <rect x="150" y="122" width="600" height="6" rx="3" fill="url(#rgb)" stroke="#000" stroke-width="1.5" filter="url(#glow)"/>
   </g>
